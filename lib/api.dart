@@ -18,7 +18,7 @@ class ApiException implements Exception {
 class Api {
   static const defaultBaseUrl = String.fromEnvironment(
     'API_BASE_URL',
-    defaultValue: 'https://mern.fire-line.tech',
+    defaultValue: 'https://mern.najoalan.xyz',
   );
 
   static String baseUrl = defaultBaseUrl;

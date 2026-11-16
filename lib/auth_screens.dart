@@ -19,7 +19,7 @@ Future<void> showServerDialog(BuildContext context) async {
             controller: ctrl,
             keyboardType: TextInputType.url,
             autocorrect: false,
-            decoration: const InputDecoration(hintText: 'https://mern.fire-line.tech'),
+            decoration: const InputDecoration(hintText: 'https://mern.najoalan.xyz'),
           ),
           const SizedBox(height: 8),
           const Text('Address of the ReelTalk web server (it serves the /api routes).',
